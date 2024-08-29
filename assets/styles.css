@@ -137,6 +137,15 @@ main {
     border-radius: 8px;
 }
 
+a {
+    color: #007acc;
+}
+
+a:hover {
+    color: #005b99;
+}
+
+
 html {
     scroll-behavior: smooth;
 }
