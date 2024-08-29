@@ -5,7 +5,7 @@ title: Contact
 
 # Contact Me
 
-You can reach me via email at [your-email@example.com](mailto:your-email@example.com).
+You can reach me via email at [your-email@example.com](mailto:dhrubajyoti.chakraborty_phd23@ashoka.edu.in).
 
 Feel free to connect with me on [GitHub](https://github.com/yourusername) for updates on my work.
 
