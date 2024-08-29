@@ -1,1 +1,9 @@
+---
+layout: post
+title: "Welcome to My Blog"
+date: 2024-08-29
+---
 
+This is my first blog post. I'll be sharing updates on my research, thoughts on economics, and interesting finds.
+
+Stay tuned for more!
