@@ -76,28 +76,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Hero Section */
-.hero {
-    background: url('/assets/hero-background.jpg') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.hero h2 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.25em;
-    margin-bottom: 20px;
-}
 
 .btn {
     background: var(--primary-color);
