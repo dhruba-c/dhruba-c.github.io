@@ -112,3 +112,29 @@ footer {
     background: var(--secondary-color);
 }
 
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+main {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 900px;
+    background: var(--white-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
