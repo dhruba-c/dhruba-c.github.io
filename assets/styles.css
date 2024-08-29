@@ -154,4 +154,16 @@ body {
     background: #f4f4f4;
 }
 
+.nav ul li a {
+    transition: background 0.3s ease;
+}
+
+main {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 
