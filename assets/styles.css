@@ -167,3 +167,12 @@ main {
     to { opacity: 1; }
 }
 
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
