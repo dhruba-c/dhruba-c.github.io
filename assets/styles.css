@@ -20,10 +20,29 @@ h1, h2, h3, h4 {
     color: #333;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
 a {
-    color: #b30000;
+    color: #8b0000;
     text-decoration: none;
 }
+
+a:hover {
+    color: #4b0000;
+    text-decoration: underline;
+}
+
 
 a:hover {
     text-decoration: underline;
