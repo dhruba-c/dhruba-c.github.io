@@ -9,15 +9,32 @@
 
 /* General Body Styling */
 body {
-    font-family: 'Merriweather', serif;
-    line-height: 1.8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
     color: #333;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
-    color: #333;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+
+body {
+    line-height: 1.75;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+a {
+    color: #8b0000; /* Dark red color */
+    text-decoration: none;
 }
 
 h1 {
@@ -28,15 +45,10 @@ h2 {
     font-size: 2em;
 }
 
-p {
-    font-size: 1.1em;
-    font-weight: 400;
+h3 {
+    font-size: 1.75em;
 }
 
-a {
-    color: #8b0000;
-    text-decoration: none;
-}
 
 a:hover {
     color: #4b0000;
