@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# hi! i am dhrubajyoti chakraborty
+# hi! i am dhrubajyoti
 
 I am a PhD student at Ashoka University, specializing in Economics.
 
