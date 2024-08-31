@@ -2,7 +2,6 @@
 layout: default
 title: Home
 ---
-![My Photo](/assets/images/My_photo.jpg)
 
 # hi! i am dhrubajyoti
 
