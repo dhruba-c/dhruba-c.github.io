@@ -5,22 +5,23 @@ title: About
 
 # About Me
 
-I am a PhD student at Ashoka University with a focus on Economics, Bounded Rationality, and Social Network Analysis. My research explores the effects of social network analysis in economics and conflict resolution, formation of groups, and game theory equilibrium behavior on networks.
+I am a PhD student at Ashoka University with a focus on Behavioural Economics, Applied Game Theory, and Economics of Institutions. My research explores conflict resolution and group dynamics, incentives behind formation of groups.
+I have a keen interest in understanding uncertainty and behavioural models of choice.
 
 ---
 
 **Education:**
 
 - **PhD in Economics**, Ashoka University, Ongoing
-- **Master's in Economics**, [University Name]
-- **Bachelor's in [Field]**, [University Name]
+- **Master's in Economics**, Calcutta University
+- **Bachelor's in Economics**, Calcutta University
 
 ---
 
 **Interests:**
 
-- Bounded Rationality
-- Game Theory
+- Behavioural Economics
+- Applied Game Theory
 - Social Network Analysis
 - Economics of Institutions
 
