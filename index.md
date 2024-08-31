@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-Hi! I am Dhrubajyoti,
+# hi! i am dhrubajyoti,
 
 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
 
