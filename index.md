@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="about-container">
-
 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
 
 <div style="flex: 1; margin-right: 20px;">
@@ -19,7 +17,6 @@ This website was created to offer a more comprehensive understanding of who I am
 
 I welcome any questions, comments, or thoughts you may have. Feel free to reach out.
 
-</div>
 </div>
 
 <div style="flex: 0 0 300px; text-align: center;">
