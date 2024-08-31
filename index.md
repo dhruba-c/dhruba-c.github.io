@@ -2,7 +2,11 @@
 layout: default
 title: Home
 ---
-<div class="about-container">
+
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+
+<div style="flex: 1; margin-right: 20px;">
+
 # hi! i am dhrubajyoti
 
 I am a PhD student at Ashoka University, specializing in Economics.
@@ -13,10 +17,13 @@ This website was created to offer a more comprehensive understanding of who I am
 
 I welcome any questions, comments, or thoughts you may have. Feel free to reach out.
 
-Feel free to explore my research, blogs, and get in touch!
-
-
-    <div class="about-photo">
-        <img src="/assets/images/My_photo.jpg" alt="My Photo" class="profile-photo">
-    </div>
 </div>
+
+<div style="flex: 0 0 300px; text-align: center;">
+
+<img src="/assets/images/my-photo.jpg" alt="My Photo" style="width: 100%; height: auto; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+
+</div>
+
+</div>
+
