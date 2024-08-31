@@ -12,11 +12,11 @@
       <h1>{{ site.title }}</h1>
 			<nav>
     <ul>
-        <li><a href="{{ " " | relative_url }}" class="{% if page.url == " " %}active{% endif %}">Home</a></li>
-        <li><a href="{{ "/about" | relative_url }}" class="{% if page.url contains "about" %}active{% endif %}">About</a></li>
-        <li><a href="{{ "/research" | relative_url }}" class="{% if page.url contains "research" %}active{% endif %}">Research</a></li>
-        <li><a href="{{ "/blog" | relative_url }}" class="{% if page.url contains "blog" %}active{% endif %}">Blog</a></li>
-        <li><a href="{{ "/contact" | relative_url }}" class="{% if page.url contains "contact" %}active{% endif %}">Contact</a></li>
+        <li><a href="{{ "/" | relative_url }}" class="{% if page.url == "/" %}active{% endif %}">Home</a></li>
+        <li><a href="{{ "about" | relative_url }}" class="{% if page.url contains "about" %}active{% endif %}">About</a></li>
+        <li><a href="{{ "research" | relative_url }}" class="{% if page.url contains "research" %}active{% endif %}">Research</a></li>
+        <li><a href="{{ "blog" | relative_url }}" class="{% if page.url contains "blog" %}active{% endif %}">Blog</a></li>
+        <li><a href="{{ "contact" | relative_url }}" class="{% if page.url contains "contact" %}active{% endif %}">Contact</a></li>
     </ul>
 </nav>
 
