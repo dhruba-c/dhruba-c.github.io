@@ -225,5 +225,17 @@ img.profile-photo {
     border: 3px solid #333; /* Optional: Adds a border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow */
 }
+.home-content {
+    display: flex;
+    align-items: center;
+}
+
+.home-content img {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.home-content div {
+    max-width: 600px; /* Restricts the width of the text */
+}
 
 
