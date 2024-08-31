@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Website
+# hi! i am dhrubajyoti chakraborty
 
-Hello! I am **Dhrubajyoti**, a PhD student at Ashoka University, specializing in Economics.
+I am a PhD student at Ashoka University, specializing in Economics.
 
 My interest in education in general goes beyond the scope of research; I am deeply engaged in exploring teaching pedagogies and connecting research to teaching. In addition to my academic pursuits, I am involved in various other activities, one of which is writing. I maintain a blog where I share my reflections and insights as I navigate different aspects of life.
 
