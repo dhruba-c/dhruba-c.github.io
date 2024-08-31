@@ -74,6 +74,7 @@ header h1 {
     font-size: 2em;
 }
 
+
 /* Navigation Bar */
 nav ul {
     padding: 0;
@@ -94,9 +95,10 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
+	transition: background 0.3s ease;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, nav ul li a.active {
     background: var(--primary-color);
     color: var(--white-color);
 }
