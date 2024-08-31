@@ -218,8 +218,8 @@ main {
 }
 
 img.profile-photo {
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%; /* Makes the image circular */
     margin: 20px 0; /* Adds space around the image */
     border: 3px solid #333; /* Optional: Adds a border */
