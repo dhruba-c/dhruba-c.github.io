@@ -12,7 +12,7 @@ I have a keen interest in understanding uncertainty and behavioural models of ch
 
 **Education:**
 
-- **PhD in Economics**, Ashoka University, Ongoing
+- **PhD student in Economics**, Ashoka University (Ongoing)
 - **Master's in Economics**, Calcutta University
 - **Bachelor's in Economics**, Calcutta University
 
