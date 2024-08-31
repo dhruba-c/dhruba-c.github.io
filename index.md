@@ -21,7 +21,7 @@ I welcome any questions, comments, or thoughts you may have. Feel free to reach 
 
 <div style="flex: 0 0 300px; text-align: center;">
 
-<img src="/assets/images/my-photo.jpg" alt="My Photo" style="width: 100%; height: auto; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+<img src="/assets/images/My_photo.jpg" alt="My Photo" style="width: 100%; height: auto; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
 
 </div>
 
