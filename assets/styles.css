@@ -190,7 +190,7 @@ main {
     to { opacity: 1; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     nav ul {
         flex-direction: column;
     }
