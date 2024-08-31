@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+<div class="about-container">
 # hi! i am dhrubajyoti
 
 I am a PhD student at Ashoka University, specializing in Economics.
@@ -18,4 +19,4 @@ Feel free to explore my research, blogs, and get in touch!
     <div class="about-photo">
         <img src="/assets/images/My_photo.jpg" alt="My Photo" class="profile-photo">
     </div>
-
+</div>
