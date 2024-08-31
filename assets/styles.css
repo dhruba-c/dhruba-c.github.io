@@ -217,3 +217,13 @@ main {
     }
 }
 
+img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin: 20px 0; /* Adds space around the image */
+    border: 3px solid #333; /* Optional: Adds a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+}
+
+
