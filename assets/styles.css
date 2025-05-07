@@ -7,27 +7,78 @@
     --white-color: #FFFFFF;
 }
 
+
+
+header, footer {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
 /* General Body Styling */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 1.6;
     color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     line-height: 1.75;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    width: 100%; /* Ensures full width */
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
 }
+
+a {
+    color: #8b0000; /* Dark red color */
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+
+a:hover {
+    color: #4b0000;
+    text-decoration: underline;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* Header */
 header {
-    width: 100%; /* Ensures full width */
     background: var(--primary-color);
     color: var(--white-color);
     padding: 10px 0;
@@ -38,6 +89,7 @@ header h1 {
     margin: 0;
     font-size: 2em;
 }
+
 
 /* Navigation Bar */
 nav ul {
@@ -59,7 +111,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    transition: background 0.3s ease;
+	transition: background 0.3s ease;
 }
 
 nav ul li a:hover, nav ul li a.active {
@@ -67,21 +119,19 @@ nav ul li a:hover, nav ul li a.active {
     color: var(--white-color);
 }
 
-/* Main Section */
+
+
 main {
-    width: 100%; /* Full width */
+    flex:1;
     padding: 20px;
     background: var(--white-color);
-    margin: 20px 0; /* Remove margin from left and right */
+    margin: 20px auto;
+    max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: none; /* Remove max-width constraint */
-    border-radius: 8px;
-    animation: fadeIn 1s ease-in-out;
 }
 
 /* Footer */
 footer {
-    width: 100%; /* Full width */
     text-align: center;
     padding: 10px;
     background: var(--secondary-color);
@@ -89,7 +139,7 @@ footer {
     margin-top: 20px;
 }
 
-/* Button Styling */
+
 .btn {
     background: var(--primary-color);
     color: white;
@@ -97,38 +147,67 @@ footer {
     text-decoration: none;
     font-size: 1.2em;
     border-radius: 5px;
-    display: inline-block;
-    margin: 10px;
 }
 
 .btn:hover {
     background: var(--secondary-color);
 }
 
-/* Flexbox Containers */
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
 }
 
-/* Image Styling */
-img.profile-photo {
-    width: 100%; /* Ensures image takes full width */
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.btn:hover {
+    background-color: var(--secondary-color);
 }
 
-.profile-photo {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+main {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 900px;
+    background: var(--white-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-/* Responsive Media Queries */
+a {
+    color: #007acc;
+}
+
+a:hover {
+    color: #005b99;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.nav ul li a {
+    transition: background 0.3s ease;
+}
+
+main {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 @media (max-width: 700px) {
     nav ul {
         flex-direction: column;
@@ -138,13 +217,36 @@ img.profile-photo {
     }
 }
 
-/* Smooth Scrolling */
-html {
-    scroll-behavior: smooth;
+img.profile-photo {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%; /* Makes the image circular */
+    margin: 20px 0; /* Adds space around the image */
+    border: 3px solid #333; /* Optional: Adds a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow */
 }
 
-/* Fade In Animation */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.profile-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.text-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.photo-container {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
