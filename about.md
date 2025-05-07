@@ -5,7 +5,7 @@ title: About
 
 # About Me
 
-I am a PhD student at Ashoka University with a focus on Individual and Social Choice, Game Theory (Classical and evolutionary). My research explores conflict resolution and group dynamics (migration), role of affirmative action.
+I am a PhD student at Ashoka University with a focus on Individual and Social Choice, Game Theory (Classical and Evolutionary). My research explores conflict resolution and group dynamics (migration), role of affirmative action.
 I have a keen interest in understanding the theory of uncertainty and behavioural models of choice.
 
 ---
